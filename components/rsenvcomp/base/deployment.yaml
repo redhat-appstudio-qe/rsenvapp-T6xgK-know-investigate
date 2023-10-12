@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: rsenvcomp
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/abarbaro-org/spi-demos-nenp-tenant/rsenvapp/rsenvcomp@sha256:11bcea164f634b8dae42dcc42ef571bcb4c580b9b158fa0c3840a329c1c19210
         name: my-java-quarkus
         ports:
         - containerPort: 8081
